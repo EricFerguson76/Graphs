@@ -106,7 +106,7 @@ class Graph:
 
         path = [starting_vertex]
 
-        q.enqueue([starting_vertex])
+        q.enqueue(path)
 
         while q.size() > 0:
             current_path = q.dequeue()
